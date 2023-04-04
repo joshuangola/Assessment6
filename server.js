@@ -15,7 +15,7 @@ var rollbar = new Rollbar({
 
 app.use(express.json());
 app.use(cors());
-app.use(express.static("public"));
+app.use(express.static(`${__dirname}/public`));
 
 rollbar.log("Welcome to where i log how you interact with me");
 
