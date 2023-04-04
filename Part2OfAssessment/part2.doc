@@ -1,0 +1,38 @@
+Test Plan:
+
+Test the "Choose Five Bots" feature by verifying that the game displays five randomly selected bots and two computer-controlled bots.
+Test the "Duel" feature by verifying that the player's and computer's total health and attack damage are correctly calculated, and that the winner is determined accurately.
+Test the "View All Bots" feature by verifying that the game displays all available bots in a list, and that the list can be closed.
+Test Cases:
+
+Test Case for "Choose Five Bots" Feature:
+a. Open the game and click on the "Choose Five Bots" button.
+b. Verify that the game displays five bots and two computer-controlled bots.
+c. Repeat step b multiple times to ensure the feature is working as intended.
+
+Test Case for "Duel" Feature:
+a. Open the game and click on the "Choose Five Bots" button.
+b. Select two bots for the player and click on the "Duel" button.
+c. Verify that the game correctly calculates the total health and attack damage for the player and computer-controlled bots.
+d. Verify that the winner is determined accurately.
+
+Test Case for "View All Bots" Feature:
+a. Open the game and click on the "View All Bots" button.
+b. Verify that the game displays all available bots in a list.
+c. Click on the "Close" button and verify that the list is closed.
+
+Bug Report:
+
+1.  Bug Description: When the player wins a duel, the "losses" counter is incremented instead of the "wins" counter.
+Steps to Reproduce:
+a. Open the game and click on the "Choose Five Bots" button.
+b. Select two bots for the player and click on the "Duel" button.
+c. Allow the player to win the duel.
+d. Verify that the "losses" counter is incremented instead of the "wins" counter.
+
+2.  Bug Description: The "See All Bots" button does not close after it is clicked.
+Steps to Reproduce:
+a. Open the game and click on the "See All Bots" button.
+b. Verify that the list of all bots is displayed.
+c. Click on the "See All Bots" button again.
+d. Verify that the list of all bots is still displayed and there is no way to close it.
