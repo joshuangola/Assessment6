@@ -17,7 +17,7 @@ const LOCAL_API_URL = "http://localhost:4000";
 const SERVER_API_URL =
   "http://ec2-18-237-87-199.us-west-2.compute.amazonaws.com:4000";
 
-const API_BASE_URL = SERVER_API_URL; // Set to SERVER_API_URL when deploying to the server or LOCAL_API_URL when on local computer
+const API_BASE_URL = LOCAL_API_URL; // Set to SERVER_API_URL when deploying to the server or LOCAL_API_URL when on local computer
 
 let choices = [];
 let compDuo = [];
